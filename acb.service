@@ -1,0 +1,9 @@
+[Unit]
+Description=ACanBee Memory mungler
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/acb
+
+[Install]
+WantedBy=multi-user.target
